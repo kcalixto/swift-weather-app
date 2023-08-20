@@ -48,14 +48,14 @@ struct ForecastCard: View {
                 }
                 .frame(height: 42)
                 
-                Text("\(forecast.temperature)Cº")
+                Text("\(forecast.temperature)º")
                     .font(.title3)
             }
             .padding(.horizontal, 8)
             .padding(.vertical, 16)
             .frame(width: 60, height: 146)
         }
-        .preferredColorScheme(.dark)
+//        .preferredColorScheme(.dark)
     }
 }
 
